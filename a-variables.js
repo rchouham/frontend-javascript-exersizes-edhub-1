@@ -1,17 +1,17 @@
 // ==========================================
 // 1. Declareer een variabele om jouw naam in op te slaan en zet de waarde erin. De variabele hoeft niet meer overschreven hoeft te worden.
 // ==========================================
-const name  = "Mijn naam is Rachid";
+const name  = "Mijn naam is Rachid Chouham";
       console.log(name)
 // ==========================================
 // 2. Declareer een variabele om de kleur van jouw ogen in op te slaan en zet de waarde erin. De variabele hoeft niet meer overschreven hoeft te worden.
 // ==========================================
-const eye= "De kleur ogen zijn bruin"
+const eye= 'De kleur ogen zijn zwart'
       console.log(eye)
 // ==========================================
 // 3. Declareer een variabele om jouw leeftijd in op te slaan en zet de waarde erin. De variabele moet later overschreven kunnen worden.
 // ==========================================
-let age = "41"
+let age = "42"
     console.log("Mijn leeftijd is "+ age)
 // ==========================================
 // 4. Declareer een variabele om jouw beroep in op te slaan en zet de waarde erin. De variabele moet later overschreven kunnen worden.
@@ -40,3 +40,7 @@ let kinderen = "3"
 // ==========================================
 // 8. Gebruik jouw variabelen nu om hun waardes te loggen in de terminal. Klopt het allemaal?
 // ==========================================
+
+
+//null ->niets, maar opzettelijk niets
+//undefined -> OOP dit is niets

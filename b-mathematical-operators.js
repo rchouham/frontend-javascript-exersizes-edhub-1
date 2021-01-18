@@ -12,8 +12,8 @@ let sum = 4+5
 // 2. Declareer een variabele en sla daar de uitkomst van 7 maal 52 in op.                          // geeft 364
 // ==========================================
 
-let multiply = 7*52
-    console.log(multiply)
+let dagenPerJaar = 7*52
+    console.log(dagenPerJaar)
 
 // ==========================================
 // 3. Declareer een variabele en sla daar de uitkomst van 4 + 3 in op, vermenigvuldigd met 7.       // geeft 49
@@ -35,14 +35,29 @@ let smaak = "zoet"
     smaak1 ="sappig"
     console.log(smaak+smaak1)
 
+const zoet = 'zoet'
+const sappig ='sappig'
+const totaal = zoet +sappig
+console.log(totaal)
+
 // ==========================================
 // 6. Declareer een variabele voor jouw voornaam en een variabele voor jouw achternaam en zet de waardes erin.
 // Declareer vervolgens een variabele voor jouw volledige naam en plak bovenstaande variabelen aan elkaar.
 // Zorg dat er een spatie tussen zit zonder iets aan de originele variabelen te veranderen.        // geeft bijv. 'Henk Pieters'
 // ==========================================
-let voornaam = "Rachid"
-    achternaam= "Chouham"
-    console.log(voornaam + " " + achternaam)
+// let voornaam = "Rachid"
+//     achternaam= "Chouham"
+//     console.log(voornaam + " " + achternaam)
+
+const voornaam= 'rachid'
+const achternaam= 'Chouham'
+const naam = voornaam + " " + achternaam
+ console.log(naam)
+
+const woonplaats = "Gennep"
+const provinicie="Utrecht"
+const locatie =`${woonplaats},${provinicie}`
+console.log(locatie)
 // ==========================================
 // 7. Declareer een variabele voor jouw woonplaats en een variabele voor provincie en zet de waardes erin.
 // Declareer vervolgens een variabele voor jouw locatie en plak jouw de woonplaats en provincie aan elkaar.

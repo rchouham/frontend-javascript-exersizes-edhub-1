@@ -32,7 +32,13 @@ const grade =7
 // Tip: verander de waarde van isRaining en temperature even handmatig om te kijken of jouw 2e conditie klopt
 // =========================================
 
-const temprature = 10
-       isRaining = 'yes'
-if((temprature >21 && isRaining =='no' )){console.log('Je kunt een korte broek aan')}
-if((temprature <12 && isRaining =='yes' )){console.log('Doe een jas aan!')}
+const temprature = 22;
+const isRaining = false;
+
+
+if ((temprature > 21 && !isRaining)) {
+    console.log('Je kunt een korte broek aan')
+}
+if ((temprature < 12 || isRaining)) {
+    console.log('Doe een jas aan!')
+}

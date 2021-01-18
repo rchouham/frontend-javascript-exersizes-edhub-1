@@ -4,16 +4,16 @@
 
 let  year = [2020,2019,2018,2017];
      year.length
-     console.log(year.length)
-     console.log(year)
-     console.log(year[2])
+     console.log(year.length)// 4
+     console.log(year) //hele array
+     console.log(year[2])// 2018
 
 
 // ==========================================
 // 2. Declareer een variabele en sla daar een array met drie van jouw hobbies in op.         // bijv. schaken, koekjes eten en muziek luisteren
 // ==========================================
 let hobbies = ["sports", "reading","motor"]
-    onsole.log(hobbies)
+    console.log(hobbies)
 
 // ==========================================
 // 3a. Declareer een variabele met daarin een array met de waardes 3, 4, 5, 7 en 2
@@ -21,7 +21,7 @@ let hobbies = ["sports", "reading","motor"]
 // ==========================================
 let nummerreeks =[3,4,5,6,7,2]
     console.log(nummerreeks[0])
-
+    console.log (nummerreeks[nummerreeks.length -1] ) //geeft altijd de laatste uit de reeks
 // ==========================================
 // 4a. Declareer een variabele met daarin een array met de waardes groen, geel, rood, paars, blauw en oranje
 // 4b. Log de waarde blauw uit de array in de terminal                                      // geeft blauw
