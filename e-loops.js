@@ -1,6 +1,9 @@
 // ==========================================
 // 1. Maak een for-loop die 3 keer "Hoera!" in de console logt
-// ==========================================
+// ==========================================// ==========================================
+//
+// for (let i=0; i<3; i++){
+// console.log('Hoera')};
 
 
 // ==========================================
@@ -20,6 +23,22 @@
 // ==========================================
 
 
+for (let i = 0; i<10; i++) {
+    if (i<3) {
+        console.log(i);
+    }
+    if (i>2 && i<6) {
+        console.log("> "+i);
+    }
+    if (i>5){
+        console.log(">> "+i);
+    }
+}
+
+
+
+
+
 // ==========================================
 // 3. Maak een for-loop die van 0 tot 15 loopt. Voor ieder getal wordt in de console gelogd of het getal even of oneven is.
 // geeft:
@@ -30,7 +49,19 @@
 // ....
 // 15 is oneven
 
+
+for (let i = 0; i<16; i++) {
+    if (i % 2 !==0) {
+        console.log(i + " oneven ");
+    }
+    if (i %2 ==0) {
+        console.log(i + " even");}
+}
+
 // tip: een getal is oneven als je het door 2 deelt en er blijft nog iets over. Een getal is even als je het deelt door 2 en er blijft niets over..
 // hier bestaat een speciale operator voor
 // ==========================================
 
+
+
+//
